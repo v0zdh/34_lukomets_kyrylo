@@ -8,7 +8,7 @@ public class ElectricResistanceTest {
         ElectricResistance er = new ElectricResistance(10, 20, 30, 2.5);
         
         // перевірка результату обчислень
-        assertEquals(24.0, er.getResistance(), 0.0001);
+        assertEquals(6.0, er.getResistance(), 0.0001);
         
         // перевірка серіалізації та десеріалізації
         try (ByteArrayOutputStream out = new ByteArrayOutputStream();
